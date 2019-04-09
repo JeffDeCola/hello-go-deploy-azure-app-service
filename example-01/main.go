@@ -1,4 +1,4 @@
-// hello-go-deploy-amazon-ec2 main.go
+// hello-go-deploy-azure-app-service main.go
 
 package main
 
