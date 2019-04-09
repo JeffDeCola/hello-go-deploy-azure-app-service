@@ -1,5 +1,5 @@
 #!/bin/sh -e
-# hello-go-deploy-amazon-ec2 build.sh
+# hello-go-deploy-azure-app-service build.sh
 
 echo " "
 
