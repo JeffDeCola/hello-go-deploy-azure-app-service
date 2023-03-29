@@ -1,19 +1,22 @@
-# hello-go-deploy-azure-app-service
+# HELLO GO DEPLOY AZURE APP SERVICE
+
+[![Tag Latest](https://img.shields.io/github/v/tag/jeffdecola/hello-go-deploy-azure-app-service)](https://github.com/JeffDeCola/hello-go-deploy-azure-app-service/tags)
+[![Go Reference](https://pkg.go.dev/badge/github.com/JeffDeCola/hello-go-deploy-azure-app-service.svg)](https://pkg.go.dev/github.com/JeffDeCola/hello-go-deploy-azure-app-service)
+[![Go Report Card](https://goreportcard.com/badge/github.com/JeffDeCola/hello-go-deploy-azure-app-service)](https://goreportcard.com/report/github.com/JeffDeCola/hello-go-deploy-azure-app-service)
+[![codeclimate Maintainability](https://api.codeclimate.com/v1/badges/ce328e08ef7038607b16/maintainability)](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/maintainability)
+[![codeclimate Issue Count](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/issues)
+[![Docker Pulls](https://badgen.net/docker/pulls/jeffdecola/hello-go-deploy-azure-app-service?icon=docker&label=pulls)](https://hub.docker.com/r/jeffdecola/hello-go-deploy-azure-app-service/)
+[![MIT License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
+[![jeffdecola.com](https://img.shields.io/badge/website-jeffdecola.com-blue)](https://jeffdecola.com)
 
 ```text
 *** THE DEPLOY IS UNDER CONSTRUCTION - CHECK BACK SOON ***
 ```
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/JeffDeCola/hello-go-deploy-azure-app-service)](https://goreportcard.com/report/github.com/JeffDeCola/hello-go-deploy-azure-app-service)
-[![GoDoc](https://godoc.org/github.com/JeffDeCola/hello-go-deploy-azure-app-service?status.svg)](https://godoc.org/github.com/JeffDeCola/hello-go-deploy-azure-app-service)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ce328e08ef7038607b16/maintainability)](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/maintainability)
-[![Issue Count](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/badges/issue_count.svg)](https://codeclimate.com/github/JeffDeCola/hello-go-deploy-azure-app-service/issues)
-[![License](http://img.shields.io/:license-mit-blue.svg)](http://jeffdecola.mit-license.org)
+_Deploy a "hello-world" docker image to
+Microsoft Azure App Service._
 
-`hello-go-deploy-azure-app-service` _will test, build, push (to DockerHub) and deploy
-a long running "hello-world" Docker Image to Microsoft Azure App Service._
-
-I also have other repos showing different deployments,
+Other Services
 
 * PaaS
   * [hello-go-deploy-aws-elastic-beanstalk](https://github.com/JeffDeCola/hello-go-deploy-aws-elastic-beanstalk)
@@ -31,12 +34,19 @@ I also have other repos showing different deployments,
   * [hello-go-deploy-azure-vm](https://github.com/JeffDeCola/hello-go-deploy-azure-vm)
   * [hello-go-deploy-gce](https://github.com/JeffDeCola/hello-go-deploy-gce)
 
-The `hello-go-deploy-azure-app-service`
-[Docker Image](https://hub.docker.com/r/jeffdecola/hello-go-deploy-azure-app-service)
-on DockerHub.
+Table of Contents
 
-The `hello-go-deploy-azure-app-service`
-[GitHub Webpage](https://jeffdecola.github.io/hello-go-deploy-azure-app-service/).
+* ???
+
+Documentation and Reference
+
+* The
+  [hello-go-deploy-azure-app-service docker image](https://hub.docker.com/r/jeffdecola/hello-go-deploy-azure-app-service)
+  on DockerHub
+* This repos
+  [github webpage](https://jeffdecola.github.io/hello-go-deploy-azure-app-service/)
+  _built with
+  [concourse](https://github.com/JeffDeCola/hello-go-deploy-azure-app-service/blob/master/ci-README.md)_
 
 ## PREREQUISITES
 
