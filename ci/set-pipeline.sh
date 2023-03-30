@@ -1,4 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 # hello-go-deploy-azure-app-service set-pipeline.sh
 
-fly -t ci set-pipeline -p hello-go-deploy-azure-app-service -c pipeline.yml --load-vars-from ../../../../../.credentials.yml
+echo " "
+echo "Set pipeline on target jeffs-ci-target which is team jeffs-ci-team"
+fly --target jeffs-ci-target \
+    set-pipeline \
+    --pipeline hello-go-deploy-azure-app-service \
+    --config pipeline.yml \
+    --load-vars-from ../../../.credentials.yml \
+    --check-creds
+echo " "
